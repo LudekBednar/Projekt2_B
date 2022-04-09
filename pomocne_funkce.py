@@ -21,6 +21,7 @@ def vypis_hraci_plochy():
         print(" ".join(i))
 
 def zapis_hrac1():
+#  funkce bezi dokud neni spravne zadana pozice na hraci plose
     run = True
     while run:
         print(oddelovac)
@@ -82,6 +83,7 @@ def kontrola_radku():
 
 
 def kontrola_sloupce():
+    # sloupce prevartim na na radky a pak je kontrola stejna jako u radku
     sloupec = [[], [], []]
     for i in range(3):
         for j in range(3):
