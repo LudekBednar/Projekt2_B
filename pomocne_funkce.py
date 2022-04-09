@@ -105,5 +105,5 @@ def kontrola_diagonaly():
     if diagonala_1.count("O") == 3 or diagonala_2.count("O") == 3:
         print("""vyhral hrac "O" """)
         return False
-    else:
-        return True
+
+    return True
